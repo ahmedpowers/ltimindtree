@@ -3,9 +3,9 @@ import { Sequelize } from 'sequelize';
 
 
 const sequelize = new Sequelize(
-   'track_db',
-   'root',
-   'The@power11',
+   'DB_NAME',
+   'USER',
+   'PASSWORD',
     {
       host: 'localhost',
       dialect: 'mysql'
